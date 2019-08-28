@@ -1,6 +1,6 @@
 <?php
     use PHPUnit\Framework\TestCase;
-    require __DIR__.'Welcome.php';
+    require 'Welcome.php';
     class WelcomeTest extends TestCase {
         protected function setUp(){
             $this->welcome = new Welcome();
